@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A6CD5401D16865900996CD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CD52C1D16865900996CD1 /* AppDelegate.m */; };
+		2A6CD5411D16865900996CD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A6CD52D1D16865900996CD1 /* Assets.xcassets */; };
+		2A6CD5421D16865900996CD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A6CD52E1D16865900996CD1 /* LaunchScreen.storyboard */; };
+		2A6CD5431D16865900996CD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A6CD5301D16865900996CD1 /* Main.storyboard */; };
+		2A6CD5441D16865900996CD1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A6CD5321D16865900996CD1 /* Info.plist */; };
+		2A6CD54A1D16865900996CD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CD53D1D16865900996CD1 /* main.m */; };
+		2A6CD54B1D16865900996CD1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CD53F1D16865900996CD1 /* ViewController.m */; };
+		2A6CD5571D1686C100996CD1 /* KPAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CD54E1D1686C100996CD1 /* KPAnimation.m */; };
+		2A6CD5581D1686C100996CD1 /* KPMaskBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CD5501D1686C100996CD1 /* KPMaskBaseView.m */; };
+		2A6CD5591D1686C100996CD1 /* KPPopMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CD5521D1686C100996CD1 /* KPPopMaskView.m */; };
+		2A6CD55A1D1686C100996CD1 /* KPPopTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CD5541D1686C100996CD1 /* KPPopTableView.m */; };
+		2A6CD55B1D1686C100996CD1 /* KPPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CD5561D1686C100996CD1 /* KPPopView.m */; };
+		2A6CD55D1D1686F600996CD1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A6CD55C1D1686F600996CD1 /* Default-568h@2x.png */; };
+		2A804B311D0FB6D600942914 /* KPPopViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A804B301D0FB6D600942914 /* KPPopViewTests.m */; };
+		2A804B3C1D0FB6D600942914 /* KPPopViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A804B3B1D0FB6D600942914 /* KPPopViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A804B2D1D0FB6D600942914 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A804B0B1D0FB6D600942914 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A804B121D0FB6D600942914;
+			remoteInfo = KPPopView;
+		};
+		2A804B381D0FB6D600942914 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A804B0B1D0FB6D600942914 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A804B121D0FB6D600942914;
+			remoteInfo = KPPopView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A6CD52B1D16865900996CD1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2A6CD52C1D16865900996CD1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2A6CD52D1D16865900996CD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A6CD52F1D16865900996CD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A6CD5311D16865900996CD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A6CD5321D16865900996CD1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A6CD53D1D16865900996CD1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A6CD53E1D16865900996CD1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2A6CD53F1D16865900996CD1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2A6CD54D1D1686C100996CD1 /* KPAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPAnimation.h; sourceTree = "<group>"; };
+		2A6CD54E1D1686C100996CD1 /* KPAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPAnimation.m; sourceTree = "<group>"; };
+		2A6CD54F1D1686C100996CD1 /* KPMaskBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPMaskBaseView.h; sourceTree = "<group>"; };
+		2A6CD5501D1686C100996CD1 /* KPMaskBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPMaskBaseView.m; sourceTree = "<group>"; };
+		2A6CD5511D1686C100996CD1 /* KPPopMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPPopMaskView.h; sourceTree = "<group>"; };
+		2A6CD5521D1686C100996CD1 /* KPPopMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPPopMaskView.m; sourceTree = "<group>"; };
+		2A6CD5531D1686C100996CD1 /* KPPopTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPPopTableView.h; sourceTree = "<group>"; };
+		2A6CD5541D1686C100996CD1 /* KPPopTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPPopTableView.m; sourceTree = "<group>"; };
+		2A6CD5551D1686C100996CD1 /* KPPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPPopView.h; sourceTree = "<group>"; };
+		2A6CD5561D1686C100996CD1 /* KPPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPPopView.m; sourceTree = "<group>"; };
+		2A6CD55C1D1686F600996CD1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2A804B131D0FB6D600942914 /* KPPopView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KPPopView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A804B2C1D0FB6D600942914 /* KPPopViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KPPopViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A804B301D0FB6D600942914 /* KPPopViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPPopViewTests.m; sourceTree = "<group>"; };
+		2A804B321D0FB6D600942914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A804B371D0FB6D600942914 /* KPPopViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KPPopViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A804B3B1D0FB6D600942914 /* KPPopViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPPopViewUITests.m; sourceTree = "<group>"; };
+		2A804B3D1D0FB6D600942914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A804B101D0FB6D600942914 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A804B291D0FB6D600942914 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A804B341D0FB6D600942914 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A6CD52A1D16865800996CD1 /* KPPopViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2A6CD52B1D16865900996CD1 /* AppDelegate.h */,
+				2A6CD52C1D16865900996CD1 /* AppDelegate.m */,
+				2A6CD52D1D16865900996CD1 /* Assets.xcassets */,
+				2A6CD52E1D16865900996CD1 /* LaunchScreen.storyboard */,
+				2A6CD5301D16865900996CD1 /* Main.storyboard */,
+				2A6CD5321D16865900996CD1 /* Info.plist */,
+				2A6CD53D1D16865900996CD1 /* main.m */,
+				2A6CD53E1D16865900996CD1 /* ViewController.h */,
+				2A6CD53F1D16865900996CD1 /* ViewController.m */,
+			);
+			path = KPPopViewDemo;
+			sourceTree = "<group>";
+		};
+		2A6CD54C1D1686C100996CD1 /* KPPopView */ = {
+			isa = PBXGroup;
+			children = (
+				2A6CD54D1D1686C100996CD1 /* KPAnimation.h */,
+				2A6CD54E1D1686C100996CD1 /* KPAnimation.m */,
+				2A6CD54F1D1686C100996CD1 /* KPMaskBaseView.h */,
+				2A6CD5501D1686C100996CD1 /* KPMaskBaseView.m */,
+				2A6CD5511D1686C100996CD1 /* KPPopMaskView.h */,
+				2A6CD5521D1686C100996CD1 /* KPPopMaskView.m */,
+				2A6CD5531D1686C100996CD1 /* KPPopTableView.h */,
+				2A6CD5541D1686C100996CD1 /* KPPopTableView.m */,
+				2A6CD5551D1686C100996CD1 /* KPPopView.h */,
+				2A6CD5561D1686C100996CD1 /* KPPopView.m */,
+			);
+			path = KPPopView;
+			sourceTree = "<group>";
+		};
+		2A804B0A1D0FB6D600942914 = {
+			isa = PBXGroup;
+			children = (
+				2A6CD55C1D1686F600996CD1 /* Default-568h@2x.png */,
+				2A6CD54C1D1686C100996CD1 /* KPPopView */,
+				2A6CD52A1D16865800996CD1 /* KPPopViewDemo */,
+				2A804B2F1D0FB6D600942914 /* KPPopViewTests */,
+				2A804B3A1D0FB6D600942914 /* KPPopViewUITests */,
+				2A804B141D0FB6D600942914 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A804B141D0FB6D600942914 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A804B131D0FB6D600942914 /* KPPopView.app */,
+				2A804B2C1D0FB6D600942914 /* KPPopViewTests.xctest */,
+				2A804B371D0FB6D600942914 /* KPPopViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A804B2F1D0FB6D600942914 /* KPPopViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A804B301D0FB6D600942914 /* KPPopViewTests.m */,
+				2A804B321D0FB6D600942914 /* Info.plist */,
+			);
+			path = KPPopViewTests;
+			sourceTree = "<group>";
+		};
+		2A804B3A1D0FB6D600942914 /* KPPopViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A804B3B1D0FB6D600942914 /* KPPopViewUITests.m */,
+				2A804B3D1D0FB6D600942914 /* Info.plist */,
+			);
+			path = KPPopViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A804B121D0FB6D600942914 /* KPPopView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A804B401D0FB6D600942914 /* Build configuration list for PBXNativeTarget "KPPopView" */;
+			buildPhases = (
+				2A804B0F1D0FB6D600942914 /* Sources */,
+				2A804B101D0FB6D600942914 /* Frameworks */,
+				2A804B111D0FB6D600942914 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KPPopView;
+			productName = KPPopView;
+			productReference = 2A804B131D0FB6D600942914 /* KPPopView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A804B2B1D0FB6D600942914 /* KPPopViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A804B431D0FB6D600942914 /* Build configuration list for PBXNativeTarget "KPPopViewTests" */;
+			buildPhases = (
+				2A804B281D0FB6D600942914 /* Sources */,
+				2A804B291D0FB6D600942914 /* Frameworks */,
+				2A804B2A1D0FB6D600942914 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A804B2E1D0FB6D600942914 /* PBXTargetDependency */,
+			);
+			name = KPPopViewTests;
+			productName = KPPopViewTests;
+			productReference = 2A804B2C1D0FB6D600942914 /* KPPopViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A804B361D0FB6D600942914 /* KPPopViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A804B461D0FB6D600942914 /* Build configuration list for PBXNativeTarget "KPPopViewUITests" */;
+			buildPhases = (
+				2A804B331D0FB6D600942914 /* Sources */,
+				2A804B341D0FB6D600942914 /* Frameworks */,
+				2A804B351D0FB6D600942914 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A804B391D0FB6D600942914 /* PBXTargetDependency */,
+			);
+			name = KPPopViewUITests;
+			productName = KPPopViewUITests;
+			productReference = 2A804B371D0FB6D600942914 /* KPPopViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A804B0B1D0FB6D600942914 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = liukunpeng;
+				TargetAttributes = {
+					2A804B121D0FB6D600942914 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					2A804B2B1D0FB6D600942914 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2A804B121D0FB6D600942914;
+					};
+					2A804B361D0FB6D600942914 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2A804B121D0FB6D600942914;
+					};
+				};
+			};
+			buildConfigurationList = 2A804B0E1D0FB6D600942914 /* Build configuration list for PBXProject "KPPopView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A804B0A1D0FB6D600942914;
+			productRefGroup = 2A804B141D0FB6D600942914 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A804B121D0FB6D600942914 /* KPPopView */,
+				2A804B2B1D0FB6D600942914 /* KPPopViewTests */,
+				2A804B361D0FB6D600942914 /* KPPopViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A804B111D0FB6D600942914 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A6CD5441D16865900996CD1 /* Info.plist in Resources */,
+				2A6CD5431D16865900996CD1 /* Main.storyboard in Resources */,
+				2A6CD5411D16865900996CD1 /* Assets.xcassets in Resources */,
+				2A6CD55D1D1686F600996CD1 /* Default-568h@2x.png in Resources */,
+				2A6CD5421D16865900996CD1 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A804B2A1D0FB6D600942914 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A804B351D0FB6D600942914 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A804B0F1D0FB6D600942914 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A6CD5401D16865900996CD1 /* AppDelegate.m in Sources */,
+				2A6CD5591D1686C100996CD1 /* KPPopMaskView.m in Sources */,
+				2A6CD54B1D16865900996CD1 /* ViewController.m in Sources */,
+				2A6CD55B1D1686C100996CD1 /* KPPopView.m in Sources */,
+				2A6CD54A1D16865900996CD1 /* main.m in Sources */,
+				2A6CD5571D1686C100996CD1 /* KPAnimation.m in Sources */,
+				2A6CD55A1D1686C100996CD1 /* KPPopTableView.m in Sources */,
+				2A6CD5581D1686C100996CD1 /* KPMaskBaseView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A804B281D0FB6D600942914 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A804B311D0FB6D600942914 /* KPPopViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A804B331D0FB6D600942914 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A804B3C1D0FB6D600942914 /* KPPopViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A804B2E1D0FB6D600942914 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A804B121D0FB6D600942914 /* KPPopView */;
+			targetProxy = 2A804B2D1D0FB6D600942914 /* PBXContainerItemProxy */;
+		};
+		2A804B391D0FB6D600942914 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A804B121D0FB6D600942914 /* KPPopView */;
+			targetProxy = 2A804B381D0FB6D600942914 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A6CD52E1D16865900996CD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A6CD52F1D16865900996CD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2A6CD5301D16865900996CD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A6CD5311D16865900996CD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A804B3E1D0FB6D600942914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2A804B3F1D0FB6D600942914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A804B411D0FB6D600942914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/KPPopViewDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.drex.KPPopView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2A804B421D0FB6D600942914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/KPPopViewDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.drex.KPPopView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2A804B441D0FB6D600942914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KPPopViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.drex.KPPopViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KPPopView.app/KPPopView";
+			};
+			name = Debug;
+		};
+		2A804B451D0FB6D600942914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KPPopViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.drex.KPPopViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KPPopView.app/KPPopView";
+			};
+			name = Release;
+		};
+		2A804B471D0FB6D600942914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KPPopViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.drex.KPPopViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KPPopView;
+			};
+			name = Debug;
+		};
+		2A804B481D0FB6D600942914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KPPopViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.drex.KPPopViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KPPopView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A804B0E1D0FB6D600942914 /* Build configuration list for PBXProject "KPPopView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A804B3E1D0FB6D600942914 /* Debug */,
+				2A804B3F1D0FB6D600942914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A804B401D0FB6D600942914 /* Build configuration list for PBXNativeTarget "KPPopView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A804B411D0FB6D600942914 /* Debug */,
+				2A804B421D0FB6D600942914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A804B431D0FB6D600942914 /* Build configuration list for PBXNativeTarget "KPPopViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A804B441D0FB6D600942914 /* Debug */,
+				2A804B451D0FB6D600942914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A804B461D0FB6D600942914 /* Build configuration list for PBXNativeTarget "KPPopViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A804B471D0FB6D600942914 /* Debug */,
+				2A804B481D0FB6D600942914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A804B0B1D0FB6D600942914 /* Project object */;
+}
