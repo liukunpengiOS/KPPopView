@@ -7,12 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "KPMaskBaseView.h"
+#import "KPMaskView.h"
 
 #define KPPOP [KPPopMaskView share]
 typedef void(^firstIndexEvent)(void);
 typedef void(^secondIndexEvent)(void);
-@interface KPPopMaskView : KPMaskBaseView
+@interface KPPopMaskView : KPMaskView
 
 + (instancetype)share;
 @property (nonatomic,copy) firstIndexEvent firstIndexEvent;

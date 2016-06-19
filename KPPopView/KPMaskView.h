@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface KPMaskBaseView : UIView
+@interface KPMaskView : UIView
 
 /**
  *  创建UIWindow实例

@@ -38,8 +38,9 @@
 - (void)createElements {
     
     __weak typeof(self)wself = self;
-    _popTableView = [[KPPopTableView alloc]initWithFrame:CGRectMake(0, 10, CGRectGetWidth(self.frame),
-                                                                    CGRectGetHeight(self.frame) - 10)];
+    _popTableView = [[KPPopTableView alloc]initWithFrame:
+                     CGRectMake(0, 10, CGRectGetWidth(self.frame),
+                                CGRectGetHeight(self.frame) - 10)];
     [self addSubview:_popTableView];
     _popTableView.cellClick = ^(NSInteger index) {
         if (wself.cellClick) {

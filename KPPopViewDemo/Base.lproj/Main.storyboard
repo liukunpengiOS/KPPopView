@@ -29,13 +29,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1056.5" y="349.5"/>
+            <point key="canvasLocation" x="807.5" y="348.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="dQw-jW-dVX">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="pFD-n0-8VN" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="OqO-9E-J6k">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>

@@ -11,7 +11,6 @@
 static NSString *const kCell = @"cell";
 @interface KPPopTableView ()<UITableViewDelegate,UITableViewDataSource>
 
-@property (nonatomic,strong) UIView *selectedColorView;
 @end
 
 @implementation KPPopTableView
@@ -48,6 +47,7 @@ static NSString *const kCell = @"cell";
 - (void)setTitleArray:(NSArray *)titleArray {
     
     _titleArray = titleArray;
+    [self reloadData];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {

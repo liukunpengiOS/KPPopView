@@ -16,7 +16,7 @@
 @property (nonatomic,strong) NSArray *titleArray;
 
 /**
- *  选线回调
+ *  选项回调
  */
 @property (nonatomic,copy) void (^cellClick)(NSInteger index);
 

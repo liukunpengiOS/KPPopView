@@ -35,13 +35,11 @@
 
 - (void)initMaskView {
     [super initMaskView];
-    
     [self createPopTableView];
 }
 
 - (void)showMaskView {
     [super showMaskView];
-    
     _popView.transform = CGAffineTransformScale(CGAffineTransformIdentity, 0.0001, 0.0001);
     [self.window insertSubview:_popView aboveSubview:self.maskView];
     [[KPAnimation animation] showTranfromAnimation:_popView];
@@ -50,14 +48,14 @@
 - (void)showPopView:(firstIndexEvent)firstIndexEvent
    secondIndexEvent:(secondIndexEvent)secondIndexEvent {
     
-    self.firstIndexEvent = firstIndexEvent;
-    self.secondIndexEvent = secondIndexEvent;
     [self initMaskView];
     [self showMaskView];
+    self.firstIndexEvent = firstIndexEvent;
+    self.secondIndexEvent = secondIndexEvent;
 }
 
 - (UIView*)createPopTableView {
-    
+
     if (_popView == nil) {
         
         __weak typeof(self)wself = self;
@@ -78,6 +76,7 @@
             }
         };
     }
+    _popView.titleArray = _titleArray;
     return _popView;
 }
 

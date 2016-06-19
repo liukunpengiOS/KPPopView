@@ -24,9 +24,11 @@
     
     KPPOP.titleArray = @[@"添加成员",@"移除成员"];
     [KPPOP showPopView:^{
-    
-    } secondIndexEvent:^{
         
+        NSLog(@"添加成员");
+        } secondIndexEvent:^{
+            
+            NSLog(@"移除成员");
     }];
 }
 

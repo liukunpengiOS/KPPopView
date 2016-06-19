@@ -15,11 +15,10 @@
 		2A6CD54A1D16865900996CD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CD53D1D16865900996CD1 /* main.m */; };
 		2A6CD54B1D16865900996CD1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CD53F1D16865900996CD1 /* ViewController.m */; };
 		2A6CD5571D1686C100996CD1 /* KPAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CD54E1D1686C100996CD1 /* KPAnimation.m */; };
-		2A6CD5581D1686C100996CD1 /* KPMaskBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CD5501D1686C100996CD1 /* KPMaskBaseView.m */; };
+		2A6CD5581D1686C100996CD1 /* KPMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CD5501D1686C100996CD1 /* KPMaskView.m */; };
 		2A6CD5591D1686C100996CD1 /* KPPopMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CD5521D1686C100996CD1 /* KPPopMaskView.m */; };
 		2A6CD55A1D1686C100996CD1 /* KPPopTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CD5541D1686C100996CD1 /* KPPopTableView.m */; };
 		2A6CD55B1D1686C100996CD1 /* KPPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CD5561D1686C100996CD1 /* KPPopView.m */; };
-		2A6CD55D1D1686F600996CD1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A6CD55C1D1686F600996CD1 /* Default-568h@2x.png */; };
 		2A804B311D0FB6D600942914 /* KPPopViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A804B301D0FB6D600942914 /* KPPopViewTests.m */; };
 		2A804B3C1D0FB6D600942914 /* KPPopViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A804B3B1D0FB6D600942914 /* KPPopViewUITests.m */; };
 /* End PBXBuildFile section */
@@ -53,15 +52,14 @@
 		2A6CD53F1D16865900996CD1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2A6CD54D1D1686C100996CD1 /* KPAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPAnimation.h; sourceTree = "<group>"; };
 		2A6CD54E1D1686C100996CD1 /* KPAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPAnimation.m; sourceTree = "<group>"; };
-		2A6CD54F1D1686C100996CD1 /* KPMaskBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPMaskBaseView.h; sourceTree = "<group>"; };
-		2A6CD5501D1686C100996CD1 /* KPMaskBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPMaskBaseView.m; sourceTree = "<group>"; };
+		2A6CD54F1D1686C100996CD1 /* KPMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPMaskView.h; sourceTree = "<group>"; };
+		2A6CD5501D1686C100996CD1 /* KPMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPMaskView.m; sourceTree = "<group>"; };
 		2A6CD5511D1686C100996CD1 /* KPPopMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPPopMaskView.h; sourceTree = "<group>"; };
 		2A6CD5521D1686C100996CD1 /* KPPopMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPPopMaskView.m; sourceTree = "<group>"; };
 		2A6CD5531D1686C100996CD1 /* KPPopTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPPopTableView.h; sourceTree = "<group>"; };
 		2A6CD5541D1686C100996CD1 /* KPPopTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPPopTableView.m; sourceTree = "<group>"; };
 		2A6CD5551D1686C100996CD1 /* KPPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPPopView.h; sourceTree = "<group>"; };
 		2A6CD5561D1686C100996CD1 /* KPPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPPopView.m; sourceTree = "<group>"; };
-		2A6CD55C1D1686F600996CD1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		2A804B131D0FB6D600942914 /* KPPopView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KPPopView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A804B2C1D0FB6D600942914 /* KPPopViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KPPopViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A804B301D0FB6D600942914 /* KPPopViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPPopViewTests.m; sourceTree = "<group>"; };
@@ -101,13 +99,13 @@
 			children = (
 				2A6CD52B1D16865900996CD1 /* AppDelegate.h */,
 				2A6CD52C1D16865900996CD1 /* AppDelegate.m */,
+				2A6CD53E1D16865900996CD1 /* ViewController.h */,
+				2A6CD53F1D16865900996CD1 /* ViewController.m */,
 				2A6CD52D1D16865900996CD1 /* Assets.xcassets */,
 				2A6CD52E1D16865900996CD1 /* LaunchScreen.storyboard */,
 				2A6CD5301D16865900996CD1 /* Main.storyboard */,
 				2A6CD5321D16865900996CD1 /* Info.plist */,
 				2A6CD53D1D16865900996CD1 /* main.m */,
-				2A6CD53E1D16865900996CD1 /* ViewController.h */,
-				2A6CD53F1D16865900996CD1 /* ViewController.m */,
 			);
 			path = KPPopViewDemo;
 			sourceTree = "<group>";
@@ -115,16 +113,16 @@
 		2A6CD54C1D1686C100996CD1 /* KPPopView */ = {
 			isa = PBXGroup;
 			children = (
+				2A6CD5551D1686C100996CD1 /* KPPopView.h */,
+				2A6CD5561D1686C100996CD1 /* KPPopView.m */,
 				2A6CD54D1D1686C100996CD1 /* KPAnimation.h */,
 				2A6CD54E1D1686C100996CD1 /* KPAnimation.m */,
-				2A6CD54F1D1686C100996CD1 /* KPMaskBaseView.h */,
-				2A6CD5501D1686C100996CD1 /* KPMaskBaseView.m */,
+				2A6CD54F1D1686C100996CD1 /* KPMaskView.h */,
+				2A6CD5501D1686C100996CD1 /* KPMaskView.m */,
 				2A6CD5511D1686C100996CD1 /* KPPopMaskView.h */,
 				2A6CD5521D1686C100996CD1 /* KPPopMaskView.m */,
 				2A6CD5531D1686C100996CD1 /* KPPopTableView.h */,
 				2A6CD5541D1686C100996CD1 /* KPPopTableView.m */,
-				2A6CD5551D1686C100996CD1 /* KPPopView.h */,
-				2A6CD5561D1686C100996CD1 /* KPPopView.m */,
 			);
 			path = KPPopView;
 			sourceTree = "<group>";
@@ -132,7 +130,6 @@
 		2A804B0A1D0FB6D600942914 = {
 			isa = PBXGroup;
 			children = (
-				2A6CD55C1D1686F600996CD1 /* Default-568h@2x.png */,
 				2A6CD54C1D1686C100996CD1 /* KPPopView */,
 				2A6CD52A1D16865800996CD1 /* KPPopViewDemo */,
 				2A804B2F1D0FB6D600942914 /* KPPopViewTests */,
@@ -275,7 +272,6 @@
 				2A6CD5441D16865900996CD1 /* Info.plist in Resources */,
 				2A6CD5431D16865900996CD1 /* Main.storyboard in Resources */,
 				2A6CD5411D16865900996CD1 /* Assets.xcassets in Resources */,
-				2A6CD55D1D1686F600996CD1 /* Default-568h@2x.png in Resources */,
 				2A6CD5421D16865900996CD1 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,7 +304,7 @@
 				2A6CD54A1D16865900996CD1 /* main.m in Sources */,
 				2A6CD5571D1686C100996CD1 /* KPAnimation.m in Sources */,
 				2A6CD55A1D1686C100996CD1 /* KPPopTableView.m in Sources */,
-				2A6CD5581D1686C100996CD1 /* KPMaskBaseView.m in Sources */,
+				2A6CD5581D1686C100996CD1 /* KPMaskView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

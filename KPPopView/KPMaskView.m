@@ -6,11 +6,11 @@
 //  Copyright © 2016年 liukunpeng. All rights reserved.
 //
 
-#import "KPMaskBaseView.h"
+#import "KPMaskView.h"
 
 #define WIDTH ([UIScreen mainScreen].bounds.size.width)
 #define HEIGHT ([UIScreen mainScreen].bounds.size.height)
-@implementation KPMaskBaseView
+@implementation KPMaskView
 
 - (void)initMaskView {
 
