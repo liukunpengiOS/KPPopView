@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "KPPopMaskView.h"
+#import "KPPopView.h"
 
 @interface ViewController ()
 
@@ -17,18 +17,24 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+}
+
+- (IBAction)leftItemDidTouch:(id)sender {
+    
+    NSArray *array = @[@"添加",@"移除"];
+    [KPPOP show:array index:^(NSInteger index) {
+        
+        NSLog(@"%ld",(long)index);
+    }];
     
 }
 
 - (IBAction)rightItemDidTouch:(id)sender {
     
-    KPPOP.titleArray = @[@"添加成员",@"移除成员"];
-    [KPPOP showPopView:^{
+    NSArray *array = @[@"添加成员",@"移除成员"];
+    [KPPOP show:array index:^(NSInteger index) {
         
-        NSLog(@"添加成员");
-        } secondIndexEvent:^{
-            
-            NSLog(@"移除成员");
+        NSLog(@"%ld",(long)index);
     }];
 }
 

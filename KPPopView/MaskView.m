@@ -6,11 +6,15 @@
 //  Copyright © 2016年 liukunpeng. All rights reserved.
 //
 
-#import "KPMaskView.h"
+#import "MaskView.h"
 
 #define WIDTH ([UIScreen mainScreen].bounds.size.width)
 #define HEIGHT ([UIScreen mainScreen].bounds.size.height)
-@implementation KPMaskView
+@interface MaskView ()
+
+@end
+
+@implementation MaskView
 
 - (void)initMaskView {
 
@@ -19,9 +23,9 @@
     _maskView = [[UIView alloc]initWithFrame:_window.bounds];
     _maskView.alpha = 0;
     _maskView.backgroundColor = [UIColor blackColor];
-    _gesture = [[UITapGestureRecognizer alloc] initWithTarget:self
-                                                       action:@selector(gestureEvent)];
-    [_maskView addGestureRecognizer:_gesture];
+    UITapGestureRecognizer *gesture = [[UITapGestureRecognizer alloc] initWithTarget:self
+                                                                              action:@selector(gestureEvent)];
+    [_maskView addGestureRecognizer:gesture];
 }
 
 - (void)showMaskView {

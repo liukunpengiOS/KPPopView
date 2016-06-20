@@ -6,9 +6,9 @@
 //  Copyright © 2016年 liukunpeng. All rights reserved.
 //
 
-#import "KPAnimation.h"
+#import "Animation.h"
 
-@implementation KPAnimation
+@implementation Animation
 
 + (instancetype)animation {
     static id animation;
@@ -20,7 +20,7 @@
     return animation;
 }
 
-- (void)showTranfromAnimation:(UIView*)animationView {
+- (void)showAnimation:(UIView*)view {
     
     [UIView animateWithDuration:0.5
                           delay:0.0
@@ -29,20 +29,20 @@
                         options:UIViewAnimationOptionCurveEaseInOut
                      animations:^{
                          
-                            animationView.alpha = 1;
-                            animationView.transform = CGAffineTransformScale(CGAffineTransformIdentity, 1.0, 1.0);
+                            view.alpha = 1;
+                            view.transform = CGAffineTransformScale(CGAffineTransformIdentity, 1.0, 1.0);
                         } completion:nil];
 }
 
-- (void)hiddedTranformAnimation:(UIView*)animationView {
+- (void)hiddenAnimation:(UIView*)view {
     
     [UIView animateWithDuration:0.3
                           delay:0
                         options:UIViewAnimationOptionCurveEaseInOut
                      animations:^{
                             
-                            animationView.alpha = 0;
-                            animationView.transform = CGAffineTransformScale(CGAffineTransformIdentity, 0.0001, 0.0001);
+                            view.alpha = 0;
+                            view.transform = CGAffineTransformScale(CGAffineTransformIdentity, 0.0001, 0.0001);
     } completion:nil];
 }
 

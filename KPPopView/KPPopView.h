@@ -1,5 +1,5 @@
 //
-//  KPBgView.h
+//  KPPopView.h
 //  KPPopView
 //
 //  Created by kunpeng on 16/6/14.
@@ -7,17 +7,28 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MaskView.h"
 
-@interface KPPopView : UIView
-
-/**
- *  选项数组
- */
-@property (nonatomic,strong) NSArray *titleArray;
+#define KPPOP [KPPopView sharePop]
+typedef void (^clickIndex)(NSInteger index);
+@interface KPPopView : MaskView
 
 /**
- *  选项回调
+ *  创建单例
  */
-@property (nonatomic,copy) void (^cellClick)(NSInteger index);
++ (instancetype)sharePop;
+
+/**
+ *  选项点击索引
+ */
+@property (nonatomic,copy)clickIndex index;
+
+/**
+ *  弹出PopView
+ *
+ *  @param array 选项数组
+ *  @param index 选项索引
+ */
+- (void)show:(NSArray*)array index:(clickIndex)index;
 
 @end

@@ -14,11 +14,10 @@
 		2A6CD5441D16865900996CD1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A6CD5321D16865900996CD1 /* Info.plist */; };
 		2A6CD54A1D16865900996CD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CD53D1D16865900996CD1 /* main.m */; };
 		2A6CD54B1D16865900996CD1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CD53F1D16865900996CD1 /* ViewController.m */; };
-		2A6CD5571D1686C100996CD1 /* KPAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CD54E1D1686C100996CD1 /* KPAnimation.m */; };
-		2A6CD5581D1686C100996CD1 /* KPMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CD5501D1686C100996CD1 /* KPMaskView.m */; };
-		2A6CD5591D1686C100996CD1 /* KPPopMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CD5521D1686C100996CD1 /* KPPopMaskView.m */; };
-		2A6CD55A1D1686C100996CD1 /* KPPopTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CD5541D1686C100996CD1 /* KPPopTableView.m */; };
-		2A6CD55B1D1686C100996CD1 /* KPPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CD5561D1686C100996CD1 /* KPPopView.m */; };
+		2A6CD5571D1686C100996CD1 /* Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CD54E1D1686C100996CD1 /* Animation.m */; };
+		2A6CD5581D1686C100996CD1 /* MaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CD5501D1686C100996CD1 /* MaskView.m */; };
+		2A6CD5591D1686C100996CD1 /* KPPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CD5521D1686C100996CD1 /* KPPopView.m */; };
+		2A6CD55B1D1686C100996CD1 /* ContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CD5561D1686C100996CD1 /* ContentView.m */; };
 		2A804B311D0FB6D600942914 /* KPPopViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A804B301D0FB6D600942914 /* KPPopViewTests.m */; };
 		2A804B3C1D0FB6D600942914 /* KPPopViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A804B3B1D0FB6D600942914 /* KPPopViewUITests.m */; };
 /* End PBXBuildFile section */
@@ -50,16 +49,14 @@
 		2A6CD53D1D16865900996CD1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2A6CD53E1D16865900996CD1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2A6CD53F1D16865900996CD1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2A6CD54D1D1686C100996CD1 /* KPAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPAnimation.h; sourceTree = "<group>"; };
-		2A6CD54E1D1686C100996CD1 /* KPAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPAnimation.m; sourceTree = "<group>"; };
-		2A6CD54F1D1686C100996CD1 /* KPMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPMaskView.h; sourceTree = "<group>"; };
-		2A6CD5501D1686C100996CD1 /* KPMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPMaskView.m; sourceTree = "<group>"; };
-		2A6CD5511D1686C100996CD1 /* KPPopMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPPopMaskView.h; sourceTree = "<group>"; };
-		2A6CD5521D1686C100996CD1 /* KPPopMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPPopMaskView.m; sourceTree = "<group>"; };
-		2A6CD5531D1686C100996CD1 /* KPPopTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPPopTableView.h; sourceTree = "<group>"; };
-		2A6CD5541D1686C100996CD1 /* KPPopTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPPopTableView.m; sourceTree = "<group>"; };
-		2A6CD5551D1686C100996CD1 /* KPPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPPopView.h; sourceTree = "<group>"; };
-		2A6CD5561D1686C100996CD1 /* KPPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPPopView.m; sourceTree = "<group>"; };
+		2A6CD54D1D1686C100996CD1 /* Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation.h; sourceTree = "<group>"; };
+		2A6CD54E1D1686C100996CD1 /* Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animation.m; sourceTree = "<group>"; };
+		2A6CD54F1D1686C100996CD1 /* MaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskView.h; sourceTree = "<group>"; };
+		2A6CD5501D1686C100996CD1 /* MaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaskView.m; sourceTree = "<group>"; };
+		2A6CD5511D1686C100996CD1 /* KPPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPPopView.h; sourceTree = "<group>"; };
+		2A6CD5521D1686C100996CD1 /* KPPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPPopView.m; sourceTree = "<group>"; };
+		2A6CD5551D1686C100996CD1 /* ContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentView.h; sourceTree = "<group>"; };
+		2A6CD5561D1686C100996CD1 /* ContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentView.m; sourceTree = "<group>"; };
 		2A804B131D0FB6D600942914 /* KPPopView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KPPopView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A804B2C1D0FB6D600942914 /* KPPopViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KPPopViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A804B301D0FB6D600942914 /* KPPopViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPPopViewTests.m; sourceTree = "<group>"; };
@@ -113,16 +110,14 @@
 		2A6CD54C1D1686C100996CD1 /* KPPopView */ = {
 			isa = PBXGroup;
 			children = (
-				2A6CD5551D1686C100996CD1 /* KPPopView.h */,
-				2A6CD5561D1686C100996CD1 /* KPPopView.m */,
-				2A6CD54D1D1686C100996CD1 /* KPAnimation.h */,
-				2A6CD54E1D1686C100996CD1 /* KPAnimation.m */,
-				2A6CD54F1D1686C100996CD1 /* KPMaskView.h */,
-				2A6CD5501D1686C100996CD1 /* KPMaskView.m */,
-				2A6CD5511D1686C100996CD1 /* KPPopMaskView.h */,
-				2A6CD5521D1686C100996CD1 /* KPPopMaskView.m */,
-				2A6CD5531D1686C100996CD1 /* KPPopTableView.h */,
-				2A6CD5541D1686C100996CD1 /* KPPopTableView.m */,
+				2A6CD5511D1686C100996CD1 /* KPPopView.h */,
+				2A6CD5521D1686C100996CD1 /* KPPopView.m */,
+				2A6CD5551D1686C100996CD1 /* ContentView.h */,
+				2A6CD5561D1686C100996CD1 /* ContentView.m */,
+				2A6CD54D1D1686C100996CD1 /* Animation.h */,
+				2A6CD54E1D1686C100996CD1 /* Animation.m */,
+				2A6CD54F1D1686C100996CD1 /* MaskView.h */,
+				2A6CD5501D1686C100996CD1 /* MaskView.m */,
 			);
 			path = KPPopView;
 			sourceTree = "<group>";
@@ -298,13 +293,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A6CD5401D16865900996CD1 /* AppDelegate.m in Sources */,
-				2A6CD5591D1686C100996CD1 /* KPPopMaskView.m in Sources */,
+				2A6CD5591D1686C100996CD1 /* KPPopView.m in Sources */,
 				2A6CD54B1D16865900996CD1 /* ViewController.m in Sources */,
-				2A6CD55B1D1686C100996CD1 /* KPPopView.m in Sources */,
+				2A6CD55B1D1686C100996CD1 /* ContentView.m in Sources */,
 				2A6CD54A1D16865900996CD1 /* main.m in Sources */,
-				2A6CD5571D1686C100996CD1 /* KPAnimation.m in Sources */,
-				2A6CD55A1D1686C100996CD1 /* KPPopTableView.m in Sources */,
-				2A6CD5581D1686C100996CD1 /* KPMaskView.m in Sources */,
+				2A6CD5571D1686C100996CD1 /* Animation.m in Sources */,
+				2A6CD5581D1686C100996CD1 /* MaskView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

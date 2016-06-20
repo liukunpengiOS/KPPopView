@@ -1,5 +1,5 @@
 //
-//  KPBgView.m
+//  KPPopView.m
 //  KPPopView
 //
 //  Created by kunpeng on 16/6/14.
@@ -7,62 +7,71 @@
 //
 
 #import "KPPopView.h"
-#import "KPPopTableView.h"
+#import "ContentView.h"
+#import "Animation.h"
 
+#define WIDTH [UIScreen mainScreen].bounds.size.width
+#define HEIGHT [UIScreen mainScreen].bounds.size.height
 @interface KPPopView ()
 
-@property (nonatomic,strong)KPPopTableView *popTableView;
+@property (nonatomic,strong) ContentView *contentView;
 @end
 
 @implementation KPPopView
 
-- (instancetype)initWithFrame:(CGRect)frame {
-    self = [super initWithFrame:frame];
-    if (self) {
++ (instancetype)sharePop{
+    static id popView;
+    static dispatch_once_t once;
+    dispatch_once(&once, ^{
         
-        self.alpha = 0;
-        self.layer.cornerRadius = 3.0f;
-        self.layer.masksToBounds = YES;
-        self.layer.anchorPoint = CGPointMake(0.85,0);
-        self.backgroundColor = [UIColor clearColor];
-        [self createElements];
+        popView = [[[self class] alloc] init];
+    });
+    return popView;
+}
+
+- (void)initMaskView {
+    [super initMaskView];
+}
+
+- (void)showMaskView {
+    [super showMaskView];
+}
+
+- (void)hiddenMaskView {
+    [super hiddenMaskView];
+    [[Animation animation] hiddenAnimation:_contentView];
+}
+
+#pragma mark - 弹出popView
+- (void)show:(NSArray*)array index:(clickIndex)index {
+    
+    [self initMaskView];
+    [self showMaskView];
+    self.index = index;
+    [self contentView:array];
+    _contentView.transform = CGAffineTransformScale(CGAffineTransformIdentity, 0.0001, 0.0001);
+    [self.window insertSubview:_contentView aboveSubview:self.maskView];
+    [[Animation animation] showAnimation:_contentView];
+}
+
+#pragma mark - 配置popView元素
+- (UIView*)contentView:(NSArray*)array {
+
+    if (_contentView == nil) {
+        
+        __weak typeof(self)wself = self;
+        _contentView = [[ContentView alloc]initWithFrame:CGRectMake(WIDTH - 105, 17, 150, 98)];
+        _contentView.array = array;
+        [self.window insertSubview:_contentView aboveSubview:self.maskView];
+        _contentView.clickIndex = ^(NSInteger index) {
+            [wself hiddenMaskView];
+            if (wself.index) {
+                wself.index(index);
+            }
+        };
     }
-    return self;
-}
-
-- (void)setTitleArray:(NSArray *)titleArray {
-    
-    _popTableView.titleArray = titleArray;
-}
-
-- (void)createElements {
-    
-    __weak typeof(self)wself = self;
-    _popTableView = [[KPPopTableView alloc]initWithFrame:
-                     CGRectMake(0, 10, CGRectGetWidth(self.frame),
-                                CGRectGetHeight(self.frame) - 10)];
-    [self addSubview:_popTableView];
-    _popTableView.cellClick = ^(NSInteger index) {
-        if (wself.cellClick) {
-            wself.cellClick(index);
-        }
-    };
-}
-
-#pragma mark 绘制三角形
-- (void)drawRect:(CGRect)rect {
-    
-    CGContextRef context = UIGraphicsGetCurrentContext();
-    CGContextBeginPath(context);
-    CGFloat location = CGRectGetWidth(self.frame) - 20;
-    CGContextMoveToPoint(context,location,0);
-    CGContextAddLineToPoint(context,location - 10 ,10);
-    CGContextAddLineToPoint(context,location + 10,10);
-    CGContextAddLineToPoint(context,location,0);
-    CGContextClosePath(context);
-    [[UIColor darkGrayColor] setFill];
-    [[UIColor darkGrayColor] setStroke];
-    CGContextDrawPath(context,kCGPathFillStroke);//绘制路径path
+    _contentView.array = array;
+    return _contentView;
 }
 
 @end
