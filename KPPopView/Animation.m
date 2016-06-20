@@ -43,7 +43,10 @@
                             
                             view.alpha = 0;
                             view.transform = CGAffineTransformScale(CGAffineTransformIdentity, 0.0001, 0.0001);
-    } completion:nil];
+    } completion:^(BOOL finished) {
+        
+        [view removeFromSuperview];
+    }];
 }
 
 @end

@@ -21,7 +21,7 @@
 
 - (IBAction)leftItemDidTouch:(id)sender {
     
-    NSArray *array = @[@"添加",@"移除"];
+    NSArray *array = @[@"添加",@"移除",@"低等等"];
     [KPPOP show:array index:^(NSInteger index) {
         
         NSLog(@"%ld",(long)index);
