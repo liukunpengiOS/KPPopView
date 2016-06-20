@@ -56,10 +56,14 @@
 
 #pragma mark - 配置popView元素
 - (UIView*)contentView:(NSArray*)array {
-
+    
+    CGFloat height = array.count * 45 + 9;
+    CGFloat width = WIDTH * 0.4;
+    CGFloat padding = 10;
+    
     __weak typeof(self)wself = self;
-     CGFloat height = array.count * 45 + 9;
-    _contentView = [[ContentView alloc]initWithFrame:CGRectMake(WIDTH - 105, 17, 150, height)];
+    _contentView = [[ContentView alloc]initWithFrame:
+                    CGRectMake(WIDTH - width - padding, 66, width, height)];
     _contentView.array = array;
     [self.window insertSubview:_contentView aboveSubview:self.maskView];
     _contentView.clickIndex = ^(NSInteger index) {

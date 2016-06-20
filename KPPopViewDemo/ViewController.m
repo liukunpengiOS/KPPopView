@@ -19,23 +19,28 @@
     [super viewDidLoad];
 }
 
-- (IBAction)leftItemDidTouch:(id)sender {
+- (IBAction)leftItemDidTouch:(UIBarButtonItem *)sender {
     
     NSArray *array = @[@"添加",@"移除",@"低等等"];
     [KPPOP show:array index:^(NSInteger index) {
         
         NSLog(@"%ld",(long)index);
     }];
-    
 }
 
-- (IBAction)rightItemDidTouch:(id)sender {
+- (IBAction)rightItemDidTouch:(UIBarButtonItem *)sender {
     
-    NSArray *array = @[@"添加成员",@"移除成员"];
+    UIBarButtonItem *barItem = (UIBarButtonItem*)sender;
+    
+    NSArray *array = @[@"1",@"2",@"3",@"4",@"5",@"6"];
     [KPPOP show:array index:^(NSInteger index) {
         
         NSLog(@"%ld",(long)index);
     }];
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    
 }
 
 @end

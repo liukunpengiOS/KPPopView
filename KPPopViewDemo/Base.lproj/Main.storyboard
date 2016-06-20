@@ -21,12 +21,12 @@
                     <navigationItem key="navigationItem" id="x8f-2O-WCC">
                         <barButtonItem key="leftBarButtonItem" title="弹出" id="KIv-Hl-wHc">
                             <connections>
-                                <action selector="leftItemDidTouch:" destination="BYZ-38-t0r" id="s9r-vs-Oqm"/>
+                                <action selector="leftItemDidTouch:" destination="BYZ-38-t0r" id="2VN-cr-pAT"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="弹出" id="gRf-lX-cks">
                             <connections>
-                                <action selector="rightItemDidTouch:" destination="BYZ-38-t0r" id="i9C-Gs-111"/>
+                                <action selector="rightItemDidTouch:" destination="BYZ-38-t0r" id="jfU-oC-jtV"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

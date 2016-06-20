@@ -28,17 +28,14 @@ static NSString *const kCell = @"cell";
     return self;
 }
 
-- (void)setArray:(NSArray *)array {
-    _array = array;
-    [_tableView reloadData];
-}
-
 - (void)setup {
     
     self.alpha = 0;
     self.layer.cornerRadius = 3.0f;
     self.layer.masksToBounds = YES;
+    CGRect oldFrame = self.frame;
     self.layer.anchorPoint = CGPointMake(0.85,0);
+    self.frame = oldFrame;
     self.backgroundColor = [UIColor clearColor];
 }
 
@@ -73,16 +70,9 @@ static NSString *const kCell = @"cell";
 - (void)config:(UITableView*)tableView {
 
     tableView.scrollEnabled = NO;
-    tableView.layer.cornerRadius = 3.0f;
+    tableView.layer.cornerRadius = self.layer.cornerRadius;
     tableView.layer.masksToBounds = YES;
     tableView.rowHeight = 45;
-    //设置分割线
-    if ([self respondsToSelector:@selector(setSeparatorInset:)]) {
-        [tableView setSeparatorInset:UIEdgeInsetsMake(0, 15, 0, 15)];
-    }
-    if ([self respondsToSelector:@selector(setLayoutMargins:)]) {
-        [self setLayoutMargins:UIEdgeInsetsMake(0, 15, 0, 15)];
-    }
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
