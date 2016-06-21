@@ -2,15 +2,22 @@
 
 Just one line code to create a popView
 
-Installation
-------------
+---
 
-Use [CocoaPods](http://cocoapods.org)
+<img src="./Screenshot.gif" width="200" alt="Screenshot" />
+
+---
+安装
+---
+
+使用 [CocoaPods](http://cocoapods.org)安装
 
     pod "KPPopView"
+      
+…or simply add KPopView.h/m into your project.
     
-Usage
------
+调用
+---
 
 ```
 
@@ -23,6 +30,6 @@ Usage
 ```
 
 
-License
+许可证
 -------
 MIT. See LICENSE.
