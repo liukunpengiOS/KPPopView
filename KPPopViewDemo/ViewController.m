@@ -19,28 +19,13 @@
     [super viewDidLoad];
 }
 
-- (IBAction)leftItemDidTouch:(UIBarButtonItem *)sender {
-    
-    NSArray *array = @[@"添加",@"移除",@"低等等"];
-    [KPPOP show:array index:^(NSInteger index) {
-        
-        NSLog(@"%ld",(long)index);
-    }];
-}
-
 - (IBAction)rightItemDidTouch:(UIBarButtonItem *)sender {
     
-    UIBarButtonItem *barItem = (UIBarButtonItem*)sender;
-    
-    NSArray *array = @[@"1",@"2",@"3",@"4",@"5",@"6"];
+    NSArray *array = @[@"选项1",@"选项2",@"选项3",@"选项4",@"选项5",@"选项6"];
     [KPPOP show:array index:^(NSInteger index) {
         
         NSLog(@"%ld",(long)index);
     }];
-}
-
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    
 }
 
 @end
