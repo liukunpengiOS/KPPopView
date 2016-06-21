@@ -2,11 +2,8 @@
 
 Just one line code to create a popView
 
----
-
 <img src="./Screenshot.gif" width="200" alt="Screenshot" />
 
----
 安装
 ---
 
