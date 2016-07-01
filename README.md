@@ -7,7 +7,7 @@ Just one line code to create a popView
 安装
 ---
 
-使用 [CocoaPods](http://cocoapods.org)安装
+使用[CocoaPods](http://cocoapods.org)安装
 
     pod "KPPopView"
       

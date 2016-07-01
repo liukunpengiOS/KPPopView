@@ -29,29 +29,29 @@
     return popView;
 }
 
-- (void)initMaskView {
-    [super initMaskView];
-}
-
-- (void)showMaskView {
-    [super showMaskView];
-}
-
-- (void)hiddenMaskView {
-    [super hiddenMaskView];
-    [[Animation animation] hiddenAnimation:_contentView];
-}
+//- (void)initMaskView {
+//    [super initMaskView];
+//}
+//
+//- (void)showMaskView {
+//    [super showMaskView];
+//}
+//
+//- (void)hiddenMaskView {
+//    [super hiddenMaskView];
+//    [[Animation animation] hiddenAnimation:_contentView];
+//}
 
 #pragma mark - 弹出popView
 - (void)show:(NSArray*)array index:(clickIndex)index {
     
     [self initMaskView];
     [self showMaskView];
-    self.index = index;
-    [self contentView:array];
-    _contentView.transform = CGAffineTransformScale(CGAffineTransformIdentity, 0.0001, 0.0001);
-    [self.window insertSubview:_contentView aboveSubview:self.maskView];
-    [[Animation animation] showAnimation:_contentView];
+    //self.index = index;
+   // [self contentView:array];
+   // _contentView.transform = CGAffineTransformScale(CGAffineTransformIdentity, 0.0001, 0.0001);
+    //[self.window insertSubview:_contentView aboveSubview:self.maskView];
+    //[[Animation animation] showAnimation:_contentView];
 }
 
 #pragma mark - 配置popView元素
@@ -60,7 +60,6 @@
     CGFloat height = array.count * 45 + 9;
     CGFloat width = WIDTH * 0.4;
     CGFloat padding = 10;
-    
     __weak typeof(self)wself = self;
     _contentView = [[ContentView alloc]initWithFrame:
                     CGRectMake(WIDTH - width - padding, 66, width, height)];

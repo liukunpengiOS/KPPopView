@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MaskView.h"
+#import "KPMaskView.h"
 
 #define KPPOP [KPPopView sharePop]
 typedef void (^clickIndex)(NSInteger index);
-@interface KPPopView : MaskView
+@interface KPPopView : KPMaskView
 
 /**
  *  创建单例
